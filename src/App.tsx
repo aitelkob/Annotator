@@ -41,8 +41,8 @@ const App: React.FC<IProps> = ({projectType, windowSize, ObjectDetectorLoaded, P
             draggable={false}
         >
             {selectRoute()}
-            <PopupView/>
-            <NotificationsView/>
+            {/* <PopupView/> */}
+            {/* <NotificationsView/> */}
         </div>
       );
 };
